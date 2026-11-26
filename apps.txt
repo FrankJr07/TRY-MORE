@@ -1,6 +1,0 @@
-# FJSS preferred streaming app order. Missing apps are skipped; installed apps fill remaining slots.
-com.netflix.ninja
-com.disney.disneyplus
-com.google.android.youtube.tv
-com.wbd.stream
-com.amazon.amazonvideo.livingroom
