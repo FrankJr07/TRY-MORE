@@ -1,0 +1,5 @@
+# FJSS fixed home row. The fifth tile is Más apps, which opens the installed-app drawer.
+com.netflix.ninja
+com.disney.disneyplus
+com.google.android.youtube.tv
+com.wbd.stream
