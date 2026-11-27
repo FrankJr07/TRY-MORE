@@ -39,9 +39,3 @@ La pantalla principal usa `assets/fjss-background.jpg`: fondo fijo azul medianoc
 \n## Corrección TCL TV (v1.5.12)\n
 - El botón TV abre `com.tcl.tv/.TVActivity` con `ACTION_VIEW` y el URI `content://android.media.tv/passthrough/` más el ID completo `com.tcl.tvinput/.TDTVInputService/HW1413742848` codificado.
 - Esta llamada exacta fue probada desde ADB en el TCL objetivo y abrió el sintonizador de canales. El ID corresponde al hardware de ese televisor; otros modelos TCL pueden requerir un ID distinto.
-
-
-## HOME priority test (v1.5.13)
-- Se incrementa a 100 la prioridad del intent-filter MAIN/HOME de FJSS (Google TV/TCL observado: prioridad 2).
-- No se modifica ni desactiva el launcher TCL. Es una prueba de resolución HOME; el fabricante puede seguir imponiendo su launcher.
-- Para actualizar la instalación existente, el APK debe firmarse con la misma clave que la versión instalada.
